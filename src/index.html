@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,29 @@
 
 <body class="bg-black m-0 p-0">
     <header class="flex justify-between items-center w-full h-28 bg-black/50 text-white font-bold px-20">
-        <a href="#">
-            <img src="./assets/headerLogo.png" alt="logo" class="">
-            <span>The Shoe Company</span>
+        <a href="#" aria-label="The Shoe Company Home" class="flex flex-col items-start">
+            <img src="./assets/headerLogo.png" alt="The Shoe Company logo" class="w-24 md:w-32">
+            <span class="mt-1 text-lg md:text-xl">The Shoe Company</span>
         </a>
-        <nav class="flex gap-4">
+
+        <nav class="flex gap-8 text-xl md:text-2xl">
             <a href="#">Home</a>
-            <a href="#how-it-work">How It's Work</a>
+            <a href="#how-it-works">How It Works</a>
             <a href="#about">About</a>
             <a href="#testimonials">Testimonials</a>
-            <a href="#concact-us">Contack Us</a>
+            <a href="#contact-us">Contact Us</a>
         </nav>
     </header>
+
+    <main>
+        <div id="hero" class="flex">
+            <p class="text-white items-center ">The Shoe Company</p>
+            <div>
+                <img src="./assets/hero.png" alt="shoe">
+                <img src="./assets/herobgc.png" alt="zebra crossing">
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
